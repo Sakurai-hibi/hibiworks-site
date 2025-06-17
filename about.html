@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>運営者情報｜HibiWorks</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <main style="max-width: 720px; margin: 0 auto; padding: 20px; font-family: sans-serif;">
-    <h1>運営者情報</h1>
+<body class="bg-white text-gray-800">
+  <header class="bg-gray-100 p-4 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">HibiWorks</h1>
+      <nav class="space-x-4 text-sm">
+        <a href="index.html" class="hover:underline">ホーム</a>
+        <a href="services.html" class="hover:underline">サービス</a>
+        <a href="contact.html" class="hover:underline">お問い合わせ</a>
+        <a href="blog1.html" class="hover:underline">ブログ</a>
+      </nav>
+    </div>
+  </header>
 
-    <p><strong>サイト名：</strong>HibiWorks（ヒビワークス）</p>
-    <p><strong>運営責任者：</strong>櫻井（個人事業主）</p>
-    <p><strong>所在地：</strong>愛知県名古屋市（詳細はお問い合わせ時に開示いたします）</p>
-    <p><strong>連絡先：</strong><a href="mailto:info@hibiworks.com">info@hibiworks.com</a></p>
+  <main class="py-12 px-4 max-w-3xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6">運営者情報</h2>
 
-    <h2>運営目的</h2>
-    <p>
-      HibiWorksは、「タスク管理をもっと習慣に」をコンセプトに、<br>
-      個人向けタスク・スケジュール管理アプリ「TasCal（タスカル）」を中心としたWebサービスの開発・運営を行っています。
-    </p>
+    <div class="space-y-4 text-sm">
+      <p><strong>サイト名：</strong>HibiWorks（ヒビワークス）</p>
+      <p><strong>運営形態：</strong>個人事業主による運営</p>
+      <p><strong>運営責任者：</strong>櫻井（個人名はお問い合わせ時に開示可能）</p>
+      <p><strong>所在地：</strong>愛知県名古屋市（詳細は必要時に開示いたします）</p>
+      <p><strong>連絡先：</strong><a href="mailto:info@hibiworks.com" class="text-blue-600 hover:underline">info@hibiworks.com</a></p>
+    </div>
 
-    <h2>掲載広告について</h2>
-    <p>
-      当サイトでは、第三者配信の広告サービス（Google AdSense）を利用する場合があります。<br>
-      ユーザーに最適な広告を表示するため、Cookieを使用することがあります。
-      詳しくは<a href="/privacy.html">プライバシーポリシー</a>をご確認ください。
-    </p>
+    <div class="mt-10 space-y-4 text-sm">
+      <h3 class="text-xl font-semibold">運営目的</h3>
+      <p>
+        HibiWorksは、「日々の目標管理をもっと身近に」をテーマに、<br>
+        個人向けタスク・カレンダー管理アプリ「TasCal（タスカル）」の開発・提供を行っています。
+        習慣化・継続支援を重視し、日常に寄り添うプロダクトを目指しています。
+      </p>
 
-    <h2>免責事項</h2>
-    <p>
-      本サイトに掲載している情報は、正確性・信頼性の確保に努めていますが、<br>
-      内容を保証するものではありません。情報の利用はご自身の判断でお願いいたします。
-    </p>
+      <h3 class="text-xl font-semibold">掲載広告について</h3>
+      <p>
+        当サイトでは、Google AdSense等の第三者配信による広告を掲載することがあります。<br>
+        広告配信にはCookieが使用され、ユーザーの閲覧履歴に基づいた広告が表示される場合があります。
+        詳しくは<a href="privacy.html" class="text-blue-600 hover:underline">プライバシーポリシー</a>をご参照ください。
+      </p>
+
+      <h3 class="text-xl font-semibold">免責事項</h3>
+      <p>
+        当サイトに掲載された情報は、可能な限り正確な内容を提供するよう努めておりますが、<br>
+        情報の正確性・安全性を保証するものではありません。利用によって生じたいかなる損害も、運営者は責任を負いかねます。
+      </p>
+    </div>
   </main>
+
+  <footer class="bg-gray-100 py-6 text-center text-sm">
+    <p>&copy; 2025 HibiWorks. All rights reserved.</p>
+    <div class="mt-2 space-x-4">
+      <a href="terms.html" class="hover:underline">利用規約</a>
+      <a href="privacy.html" class="hover:underline">プライバシーポリシー</a>
+      <a href="contact.html" class="hover:underline">お問い合わせ</a>
+      <a href="about.html" class="hover:underline font-bold">運営者情報</a>
+    </div>
+  </footer>
 </body>
 </html>
